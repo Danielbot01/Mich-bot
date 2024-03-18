@@ -25,22 +25,20 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
   ╭━〔  𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓  ${taguser} ⛅  〕⬣
 
- _*< TUS ESTADÍSTICAS />*_
-
- ▢ *Nivel:* ${level}
- ▢ *Experiencia:* ${exp}
- ▢ *Rango:* ${role}
- ▢ *Diamantes:* ${limit}
- ▢ *MonovanCoins:* ${money}
- ▢ *Tokens:* ${joincount}
- ▢ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+ ╭━〔 📊 ᴇsᴛᴀᴅɪsᴛɪᴄᴀs 📊〕
+ *┃➤ *Nivel:* ${level}
+ *┃➤ *Experiencia:* ${exp}
+ *┃➤ *Rango:* ${role}
+ *┃➤ *Diamantes:* ${limit}
+ *┃➤ *MonovanCoins:* ${money}
+ *┃➤ *Tokens:* ${joincount}
+ *┃➤ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
 
-  _*< LISTA DE MENUS />*_
-  
-  ▢ _${usedPrefix}menuaudios_
-  ▢ _${usedPrefix}menuanimes_
-  ▢ _${usedPrefix}labiblia_ (🔞)
+  ╭━〔 🔩ʟɪsᴛᴀ ᴅᴇ ᴍᴇɴᴜs 🔩〕
+  *┃➤ ${usedPrefix}menuaudios
+  *┃➤ ${usedPrefix}menuanimes
+  *┃➤ ${usedPrefix}labiblia (🔞)
 
  
    ╭━〔 🎮 𝐉𝐔𝐄𝐆𝐎𝐒 🎮 〕
@@ -80,71 +78,40 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   *┃➤ 🕹️ ${usedPrefix}suerte*
   *┃➤ 🕹️ ${usedPrefix}wordfind*
 
-
- _*< ACT./DESACT. FUNC. />*_
-
-  ▢ _${usedPrefix}enable *welcome*_
-  ▢ _${usedPrefix}disable *welcome*_
-  ▢ _${usedPrefix}enable *modohorny*_
-  ▢ _${usedPrefix}disable *modohorny*_
-  ▢ _${usedPrefix}enable *antilink*_
-  ▢ _${usedPrefix}disable *antilink*_
-  ▢ _${usedPrefix}enable *antilink2*_
-  ▢ _${usedPrefix}disable *antilink2*_
-  ▢ _${usedPrefix}enable *detect*_
-  ▢ _${usedPrefix}disable *detect*_
-  ▢ _${usedPrefix}enable *audios*_
-  ▢ _${usedPrefix}disable *audios*_
-  ▢ _${usedPrefix}enable *autosticker*_
-  ▢ _${usedPrefix}disable *autosticker*_
-  ▢ _${usedPrefix}enable *antiviewonce*_
-  ▢ _${usedPrefix}disable *antiviewonce*_
-  ▢ _${usedPrefix}enable *antitoxic*_
-  ▢ _${usedPrefix}disable *antitoxic*_
-  ▢ _${usedPrefix}enable *antitraba*_
-  ▢ _${usedPrefix}disable *antitraba*_
-  ▢ _${usedPrefix}enable *antiarabes*_
-  ▢ _${usedPrefix}disable *antiarabes*_
-  ▢ _${usedPrefix}enable *modoadmin*_
-  ▢ _${usedPrefix}disable *modoadmin*_
-  ▢ _${usedPrefix}enable *antidelete*_
-  ▢ _${usedPrefix}disable *antidelete*_
-
-
  _*< DESCARGAS />*_
 
- ▢ _${usedPrefix}play *<txt>*_
- ▢ _${usedPrefix}play2 *<txt>*_
- ▢ _${usedPrefix}play.1 *<txt>*_
- ▢ _${usedPrefix}play.2 *<txt>*_
- ▢ _${usedPrefix}playdoc *<txt>*_
- ▢ _${usedPrefix}playdoc2 *<txt>*_
- ▢ _${usedPrefix}playlist *<txt>*_
- ▢ _${usedPrefix}ytshort *<url>*_
- ▢ _${usedPrefix}ytmp3 *<url>*_
- ▢ _${usedPrefix}ytmp3doc *<url>*_
- ▢ _${usedPrefix}ytmp4 *<url>*_
- ▢ _${usedPrefix}ytmp4doc *<url>*_
- ▢ _${usedPrefix}videodoc *<url>*_
- ▢ _${usedPrefix}spotify *<txt>*_
- ▢ _${usedPrefix}facebook *<url>*_
- ▢ _${usedPrefix}instagram *<url>*_
- ▢ _${usedPrefix}igstory *<usr>*_
- ▢ _${usedPrefix}tiktok *<url>*_
- ▢ _${usedPrefix}tiktokimg *<url>*_
- ▢ _${usedPrefix}pptiktok *<usr>*_
- ▢ _${usedPrefix}mediafire *<url>*_ 
- ▢ _${usedPrefix}pinterest *<txt>*_
- ▢ _${usedPrefix}gitclone *<url>*_
- ▢ _${usedPrefix}gdrive *<url>*_
- ▢ _${usedPrefix}twitter *<url>*_
- ▢ _${usedPrefix}ringtone *<txt>*_
- ▢ _${usedPrefix}soundcloud *<txt>*_
- ▢ _${usedPrefix}stickerpack *<url>*_
- ▢ _${usedPrefix}wallpaper *<txt>*_ 
- ▢ _${usedPrefix}dapk2 *<url>*_
- ▢ _${usedPrefix}xnxxdl *<url>*_ (🔞)
- ▢ _${usedPrefix}xvideosdl *<url>*_ (🔞)
+ *┃➤ ${usedPrefix}play *<txt>*_
+ *┃➤ ${usedPrefix}play2 *<txt>*_
+ *┃➤ ${usedPrefix}play.1 *<txt>*_
+ *┃➤ ${usedPrefix}play.2 *<txt>*_
+ *┃➤ ${usedPrefix}playdoc *<txt>*_
+ *┃➤ ${usedPrefix}playdoc2 *<txt>*_
+ *┃➤ ${usedPrefix}playlist *<txt>*_
+ *┃➤ ${usedPrefix}ytshort *<url>*_
+ *┃➤ ${usedPrefix}ytmp3 *<url>*_
+ *┃➤ ${usedPrefix}ytmp3doc *<url>*_
+ *┃➤ ${usedPrefix}ytmp4 *<url>*_
+ *┃➤ ${usedPrefix}ytmp4doc *<url>*_
+ *┃➤ ${usedPrefix}videodoc *<url>*_
+ *┃➤ ${usedPrefix}spotify *<txt>*_
+ *┃➤ ${usedPrefix}facebook *<url>*_
+ *┃➤ ${usedPrefix}instagram *<url>*_
+ *┃➤ ${usedPrefix}igstory *<usr>*_
+ *┃➤ ${usedPrefix}tiktok *<url>*_
+ *┃➤ ${usedPrefix}tiktokimg *<url>*_
+ *┃➤ ${usedPrefix}pptiktok *<usr>*_
+ *┃➤ ${usedPrefix}mediafire *<url>*_ 
+ *┃➤ ${usedPrefix}pinterest *<txt>*_
+ *┃➤ ${usedPrefix}gitclone *<url>*_
+ *┃➤ ${usedPrefix}gdrive *<url>*_
+ *┃➤ ${usedPrefix}twitter *<url>*_
+ *┃➤ ${usedPrefix}ringtone *<txt>*_
+ *┃➤ ${usedPrefix}soundcloud *<txt>*_
+ *┃➤ ${usedPrefix}stickerpack *<url>*_
+ *┃➤ ${usedPrefix}wallpaper *<txt>*_ 
+ *┃➤ ${usedPrefix}dapk2 *<url>*_
+ *┃➤ ${usedPrefix}xnxxdl *<url>*_ (🔞)
+ *┃➤ ${usedPrefix}xvideosdl *<url>*_ (🔞)
 
 
  _*< BUSCADORES />*_
