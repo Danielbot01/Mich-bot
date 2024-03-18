@@ -44,41 +44,41 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
  
    ╭━〔 🎮 𝐉𝐔𝐄𝐆𝐎𝐒 🎮 〕
-  *┃➤ 🕹️ ${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-  *┃➤ 🕹️ ${usedPrefix}fake *<txt1> <@tag> <txt2>*_
-  *┃➤ 🕹️ ${usedPrefix}ppt *<papel / tijera /piedra>*_
-  *┃➤ 🕹️ ${usedPrefix}prostituto *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}prostituta *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}gay2 *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}lesbiana *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}pajero *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}pajera *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}puto *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}puta *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}manco *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}manca *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}rata *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}love *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}doxear *<nombre / @tag>*_
-  *┃➤ 🕹️ ${usedPrefix}pregunta *<txt>*_
-  *┃➤ 🕹️ ${usedPrefix}suitpvp *<@tag>*_
-  *┃➤ 🕹️ ${usedPrefix}slot *<apuesta>*_
-  *┃➤ 🕹️ ${usedPrefix}ttt *<nombre sala>*_
-  *┃➤ 🕹️ ${usedPrefix}delttt_
-  *┃➤ 🕹️ ${usedPrefix}acertijo_
-  *┃➤ 🕹️ ${usedPrefix}simi *<txt>*_
-  *┃➤ 🕹️ ${usedPrefix}top *<txt>*_
-  *┃➤ 🕹️ ${usedPrefix}topgays_
-  *┃➤ 🕹️ ${usedPrefix}topotakus_
-  *┃➤ 🕹️ ${usedPrefix}formarpareja_
-  *┃➤ 🕹️ ${usedPrefix}verdad_
-  *┃➤ 🕹️ ${usedPrefix}reto_
-  *┃➤ 🕹️ ${usedPrefix}cancion_
-  *┃➤ 🕹️ ${usedPrefix}pista_
-  *┃➤ 🕹️ ${usedPrefix}akinator_
-  *┃➤ 🕹️ ${usedPrefix}ruleta
-  *┃➤ 🕹️ ${usedPrefix}suerte
-  *┃➤ 🕹️ ${usedPrefix}wordfind_
+  *┃➤ 🕹️ ${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*
+  *┃➤ 🕹️ ${usedPrefix}fake *<txt1> <@tag> <txt2>*
+  *┃➤ 🕹️ ${usedPrefix}ppt *<papel / tijera /piedra>*
+  *┃➤ 🕹️ ${usedPrefix}prostituto *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}prostituta *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}gay2 *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}lesbiana *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}pajero *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}pajera *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}puto *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}puta *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}manco *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}manca *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}rata *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}love *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}doxear *<nombre / @tag>*
+  *┃➤ 🕹️ ${usedPrefix}pregunta *<txt>*
+  *┃➤ 🕹️ ${usedPrefix}suitpvp *<@tag>*
+  *┃➤ 🕹️ ${usedPrefix}slot *<apuesta>*
+  *┃➤ 🕹️ ${usedPrefix}ttt *<nombre sala>*
+  *┃➤ 🕹️ ${usedPrefix}delttt*
+  *┃➤ 🕹️ ${usedPrefix}acertijo*
+  *┃➤ 🕹️ ${usedPrefix}simi *<txt>*
+  *┃➤ 🕹️ ${usedPrefix}top *<txt>*
+  *┃➤ 🕹️ ${usedPrefix}topgays*
+  *┃➤ 🕹️ ${usedPrefix}topotakus*
+  *┃➤ 🕹️ ${usedPrefix}formarpareja*
+  *┃➤ 🕹️ ${usedPrefix}verdad*
+  *┃➤ 🕹️ ${usedPrefix}reto*
+  *┃➤ 🕹️ ${usedPrefix}cancion*
+  *┃➤ 🕹️ ${usedPrefix}pista*
+  *┃➤ 🕹️ ${usedPrefix}akinator*
+  *┃➤ 🕹️ ${usedPrefix}ruleta*
+  *┃➤ 🕹️ ${usedPrefix}suerte*
+  *┃➤ 🕹️ ${usedPrefix}wordfind*
 
 
  _*< ACT./DESACT. FUNC. />*_
