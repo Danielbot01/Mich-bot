@@ -23,7 +23,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `_*MONOVAN BOT*_
 
- ▢ *Hola,* ${taguser}
+  ╭━〔  𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓  ${taguser} ⛅  〕⬣
+*┃➤ 👤 Creador : Monovan Shop* 
+*┃➤ 👤 Soporte : wa.me/527299350963*
+*┃➤ 🧿 Grupo de Ventas : https://chat.whatsapp.com/G5FO3K6iLC51jzDhDXAjhm
+*┃➤ ⌛ Tiempo activo : #uptime*
+ ╰━━━━━━━━━━━━⬣
 
  _*< TUS ESTADÍSTICAS />*_
 
