@@ -11,43 +11,43 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['527299350963', '👑 Monovan - Creador 👑', true],
-  ['527299350963', '💫 Monovan - Collaborator 1 💫', true],
-  ['527299350963', '💫 Monovan - Collaborator 2 💫', true],
-  ['527299350963', '💫 Monovan - Collaborator 3 💫', true],
-  ['527299350963', '💫 Monovan - Collaborator 4 💫', true],
-  ['527229350963', '💫 Monovan - Collaborator 5 💫', true],
-  ['527299350963', '💫 Monovan - Collaborator 6 💫', true],
-  ['527299350963', '💫 Monovan - Rey Endymion 💫', false],
-  ['527299350963', '💫 Monovan - Collaborator 8 💫', true],
-  ['527299350963','💫 Monovan - Tester Fabri115💫', true],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'], 
-  ['527299350963'],  
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'], 
-  ['527299350963'], 
-  ['527299350963'],
-  ['527299350963']
+  ['527821010442', '👑 Michell-Shop - Creador 👑', true],
+  ['527821010442', '💫 Michell-Shop - Collaborator 1 💫', true],
+  ['527821010442', '💫 Michell-Shop - Collaborator 2 💫', true],
+  ['527821010442', '💫 Michell-Shop - Collaborator 3 💫', true],
+  ['527821010442', '💫 Michell-Shop - Collaborator 4 💫', true],
+  ['527821010442', '💫 Michell-Shop - Collaborator 5 💫', true],
+  ['527821010442', '💫 Michell-Shop - Collaborator 6 💫', true],
+  ['527821010442', '💫 Michell-Shop - Rey Endymion 💫', false],
+  ['527821010442', '💫 Michell-Shop - Collaborator 8 💫', true],
+  ['527821010442','💫 Michell-Shop - Tester Fabri115💫', true],
+  ['527821010442'],
+  ['527821010442'],
+  ['527821010442'],
+  ['527821010442'],
+  ['527821010442'],
+  ['527821010442'],
+  ['527821010442'],
+  ['527821010442'], 
+  ['527821010442'],  
+  ['527821010442'],
+  ['527821010442'],
+  ['527821010442'],
+  ['527821010442'], 
+  ['527821010442'], 
+  ['527821010442'],
+  ['527821010442']
 ];
 
-global.suittag = ['527299350963'];
-global.prems = ['527299350963'];
+global.suittag = ['527821010442'];
+global.prems = ['527821010442'];
 
-global.packname = 'Monovan';
-global.author = 'Monovan';
-global.wm = 'Monovan ';
-global.titulowm = 'Monovan ';
-global.titulowm2 = `Monovan `
-global.igfg = 'Monovan ';
+global.packname = 'Michell-Shop';
+global.author = 'Michell-Shop';
+global.wm = 'Michell-Shop ';
+global.titulowm = 'Michell-Shop ';
+global.titulowm2 = `Michell-Shop `
+global.igfg = 'Michell-Shop ';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -68,15 +68,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nMonovan-Bot`;
-global.gt = 'Monovan-Bot ';
-global.mysticbot = 'Monovan-Bot ';
+global.wm2 = `${dia} ${fecha}\nMichi-Bot`;
+global.gt = 'Michi-Bot ';
+global.mysticbot = 'Michi-Bot ';
 global.md = ' ';
 global.mysticbot = ' ';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '527299350963';
+global.nomorown = '527821010442';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
