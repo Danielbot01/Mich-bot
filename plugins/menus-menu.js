@@ -222,14 +222,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}tupai_
 
 
-  ╭━〔 👾 CHAT ANONIMO 👾 〕
-*┃➤ ⭐ ${usedPrefix}start*
-*┃➤ ⭐ ${usedPrefix}next*
-*┃➤ ⭐ ${usedPrefix}leave*
- ╰━━━━━━━━━━━━
+   ╭━〔 👾 CHAT ANONIMO 👾 〕
+  *┃➤ ⭐ ${usedPrefix}start*
+  *┃➤ ⭐ ${usedPrefix}next*
+  *┃➤ ⭐ ${usedPrefix}leave*
+   ╰━━━━━━━━━━━━
 
 
- ╭━〔 🌝 𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒 🌝 〕 
+   ╭━〔 🌝 𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒 🌝 〕 
   *┃➤ 🍃 _${usedPrefix}inspect *<wagc_url>*_
   *┃➤ 🍃 _${usedPrefix}chatgpt *<txt>*_
   *┃➤ 🍃 _${usedPrefix}delchatgpt
@@ -259,8 +259,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   *┃➤ 🍃 _${usedPrefix}tiktokstalk *<usr>*_
   *┃➤ 🍃 _${usedPrefix}img *<txt>*_
    ╰━━━━━━━━━━━━
-
-  ╭━〔  𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐒 ⛅  〕
+ 
+   ╭━〔  𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐒 ⛅  〕
   *┃➤ ☁️ _${usedPrefix}sticker *<responder a img o video>*_
   *┃➤ ☁️ _${usedPrefix}sticker *<url>*_
   *┃➤ ☁️ _${usedPrefix}sticker2 *<responder a img o video>*_
